@@ -17,13 +17,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <nav className="bg-gray-800 p-4">
+        <nav className="bg-[#5FD475] p-4 ">
           <div className="flex items-center justify-between">
-            <span className="text-white font-semibold">Meu Site</span>
+            <span className="text-white font-semibold">Team Pool</span>
             <ul className="flex">
-              <li><a href="#" className="text-gray-300 hover:text-white px-3 py-2">Home</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-white px-3 py-2">Sobre</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-white px-3 py-2">Contato</a></li>
+              <li><a href="#" className="text-gray-200 hover:text-white px-3 py-2">Home</a></li>
+              <li><a href="#" className="text-gray-200 hover:text-white px-3 py-2">Sobre</a></li>
+              <li><a href="#" className="text-gray-200 hover:text-white px-3 py-2">Contato</a></li>
             </ul>
           </div>
         </nav>
