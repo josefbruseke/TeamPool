@@ -6,7 +6,7 @@ interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
     color?: string;
 }
 
-export default function Button({ children, className, color, ...props }: ButtonProps) {
+const Button: React.FC<ButtonProps> = ({ children, className, color, ...props }) => {
     return (
         <button
             className={twMerge(`flex items-center justify-center text-center bg-clip-padding p-4 rounded-full min-w-32 hover:bg-violet-700 ${color ? color : 'bg-gradient-to-r from-purple-800 to-sky-600'} ${className}`)}
@@ -16,3 +16,5 @@ export default function Button({ children, className, color, ...props }: ButtonP
         </button>
     );
 }
+
+export default Button;
