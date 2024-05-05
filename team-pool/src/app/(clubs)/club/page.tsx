@@ -29,16 +29,16 @@ export default function Page() {
 						  {/* Conteúdo do segundo bloco */}
 					  </div>
 				  </div>
-				  <EventCalender events={[
-					{date: addDays(new Date(), 6), title: "Futebol"}
-				  	]}
-				  />
+				  
 			</>
 		)}
 
 		{active === 'horarios' && (
-			<div className="bg-blue-100 h-80 w-1/2 rounded-xl">
-			<EventCalender events={[]}/>
+			<div className="h-80 w-1/2 rounded-xl">
+			<EventCalender events={[
+					{date: addDays(new Date(), 6), title: "Futebol"}
+				  	]}
+				  />
 			</div>
 		)}
 		</div>
