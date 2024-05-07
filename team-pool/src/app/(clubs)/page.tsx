@@ -1,4 +1,5 @@
-import ClubCard from "../components/ClubCard";
+import ClubCard from "../components/ReserveCard";
+
 
 export default function Home() {
   return (
