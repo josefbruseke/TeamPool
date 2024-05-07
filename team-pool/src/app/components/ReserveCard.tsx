@@ -1,6 +1,7 @@
 import Button from "./Button";
 
-export default function ClubCard() {
+
+export default function ReserveCard() {
     return (
         <div className="bg-[#1971B4] w-80 p-2 rounded-xl text-white">
             <p>Status: Aberto</p>
