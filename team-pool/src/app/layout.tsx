@@ -27,7 +27,7 @@ export default function RootLayout({
             </ul>
           </div>
         </nav>
-        <div className="bg-gray-200">
+        <div className="bg-gray-200 p-10">
           {children}
         </div>
 
